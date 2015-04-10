@@ -1,0 +1,6 @@
+{
+    "require": {
+        "fcosrno/exam-php": "~1.0",
+		"simplon/mysql": "*"
+    }
+}

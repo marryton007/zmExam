@@ -1,0 +1,106 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e89333919527739ccbd1fa1f660d9041",
+    "packages": [
+        {
+            "name": "fcosrno/exam-php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fcosrno/exam-php.git",
+                "reference": "1efaea358bf7566ae653e2f3db37ffd21be9e965"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fcosrno/exam-php/zipball/1efaea358bf7566ae653e2f3db37ffd21be9e965",
+                "reference": "1efaea358bf7566ae653e2f3db37ffd21be9e965",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Fcosrno\\Exam\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Francisco Serrano",
+                    "email": "fserrano@gmail.com"
+                }
+            ],
+            "description": "PHP library to create, display, and grade exams.",
+            "keywords": [
+                "Assessment",
+                "Evaluation",
+                "Grading",
+                "exam",
+                "questionnaire",
+                "survey"
+            ],
+            "time": "2014-09-10 02:25:47"
+        },
+        {
+            "name": "simplon/mysql",
+            "version": "0.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fightbulc/simplon_mysql.git",
+                "reference": "fd780f439810c1eb78697a1c1a2b2568bb41cdc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fightbulc/simplon_mysql/zipball/fd780f439810c1eb78697a1c1a2b2568bb41cdc5",
+                "reference": "fd780f439810c1eb78697a1c1a2b2568bb41cdc5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Simplon\\Mysql\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tino Ehrich",
+                    "email": "tino@bigpun.me",
+                    "role": "developer"
+                }
+            ],
+            "description": "Simplon MySQL Library",
+            "homepage": "https://github.com/fightbulc/simplon_mysql",
+            "keywords": [
+                "db",
+                "manager",
+                "mysql",
+                "pdo"
+            ],
+            "time": "2014-11-16 22:13:39"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
